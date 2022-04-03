@@ -1,0 +1,397 @@
+@media only screen and (min-width: 1500px) and (max-width: 2144px) {
+  .li_inner_span {
+    font-size: 21px;
+    font-weight: 300;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1500px) {
+  .li_inner_span {
+    font-size: 12px;
+    font-size: 300;
+  }
+}
+
+body {
+  overflow: overlay;
+  margin: 0px;
+}
+
+.main_content {
+  height: 3000px;
+  background-color: #121212;
+  width: 100%;
+}
+
+.interface {
+  margin-left: 15%;
+  height: 100%;
+}
+
+.playlists_and_hi_tab {
+  height: 300px;
+  padding: 80px 0px 80px 40px;
+  background: rgb(18, 18, 18);
+  background: linear-gradient(
+    0deg,
+    rgba(18, 18, 18, 1) 0%,
+    rgba(13, 114, 234, 0.6) 100%
+  );
+}
+
+.top_rec_bar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inner_top_ref {
+  display: block;
+  color: aliceblue;
+}
+
+.top_menu_splitter {
+  width: 10px;
+}
+
+.top_rec_item {
+  width: 32%;
+}
+
+.inner_top_rec_item {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  background-color: rgba(206, 199, 199, 0.3);
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.top_rec_avatar {
+  height: 90px;
+  width: 90px;
+  border-radius: 5px 0 0 5px;
+  margin-right: 10px;
+  border: none;
+  outline: none;
+}
+
+.rec_inner_container {
+  display: flex;
+  overflow-x: scroll;
+  height: 290px;
+}
+
+.rec_container {
+  width: 100%;
+}
+
+.rec_plate {
+  margin: 0px 20px;
+}
+
+.rec_item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 170px;
+  height: 250px;
+  background-color: #181818;
+  border-radius: 5px;
+  padding: 10px;
+}
+.rec_pic {
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(206, 199, 199, 0.5);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(206, 199, 199, 0.5);
+}
+
+.player_interface {
+  position: fixed;
+  bottom: 0%;
+  background-color: #181818;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content:stretch;
+}
+
+.player_left {
+  width: 30%;
+  display: flex;
+}
+
+.player_right {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.mute_button{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin:10px;
+    background-color:#a7a7a7;
+}
+
+
+input[type='range'] {
+    overflow: hidden;
+    width: 50%;
+    -webkit-appearance: none;
+    background-color:#121212;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+    height: 10px;
+    -webkit-appearance: none;
+    color: green;
+}
+
+input[type='range']::-webkit-slider-thumb {
+    width: 10px;
+    -webkit-appearance: none;
+    height: 10px;
+    cursor: ew-resize;
+    background: #434343;
+    box-shadow: -500px 0 0 500px green;
+}
+
+
+
+.player_center {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.player_left_spans {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.nowplaying_ico {
+  padding: 10px;
+}
+
+.buttons_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shuffle_button {
+  width: 30px;
+  height: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 15px;
+  background-color: #a7a7a7;
+}
+
+.left_button {
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 20px;
+  background-color: #a7a7a7;
+}
+
+.play_button {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #a7a7a7;
+}
+
+.right_button {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  margin-left: 15px;
+ margin-right: 15px;
+ border-radius: 20px;
+ background-color: #a7a7a7;
+}
+
+.repeat_button {
+  width: 30px;
+  height: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 15px;
+  background-color: #a7a7a7;
+}
+
+.play_progress {
+  width: 100%;
+  height: 5px;
+  color:green;
+  background-color:#121212;
+  margin-bottom: 8px;
+}
+
+.left_menu {
+  position: fixed;
+  float: left;
+  left: 0px;
+  top: 0px;
+  bottom: 200px;
+  width: 15%;
+  background-color: black;
+  padding-top: 10px;
+  height: 92%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.left_menu_ico {
+  width: 25px;
+  height: 25px;
+  padding-right: 10px;
+}
+
+.items_menu {
+  list-style: none;
+  padding-inline-start: 10px;
+  padding-inline-end: 10px;
+}
+
+li {
+  width: 100%;
+  padding: 5px;
+}
+
+.a_in_li {
+  display: flex;
+  align-items: center;
+}
+
+.items_wrapper {
+  width: 100%;
+}
+
+.bottom_span,
+span {
+  color: #a7a7a7;
+}
+
+.bottom_span {
+  align-self: flex-end;
+  text-align: left;
+  margin-right: 5px;
+}
+
+.top_menu {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 15%;
+  /*background-color: #0d72ea;*/
+  background-color: transparent;
+
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  background-image: url(spotyLogo.png);
+  background-size: 80%;
+  width: 100%;
+  background-position: left;
+  height: 90px;
+  background-repeat: no-repeat;
+}
+
+.top_menu_container {
+  display: flex;
+  height: 40px;
+  width: 95%;
+  background-color: transparent;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: 0px;
+  opacity: 70%;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.top_menu_button_span {
+  color: #a7a7a7;
+}
+
+.profile_button {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  border: 0;
+  opacity: 70%;
+  color: black;
+  margin-left: auto;
+}
+
+.profile_button:hover {
+  cursor: pointer;
+}
+
+h1 {
+  color: aliceblue;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+}
+
+h2 {
+  margin-left: 40px;
+  font-size: 25px;
+  color: aliceblue;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: 600;
+  text-align: left;
+  color: aliceblue;
+}
+
+span {
+  font-weight: 500;
+}
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
