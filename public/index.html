@@ -3,79 +3,73 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="favicon.ico" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
-
-    <script>
-      function OpenPlayer(url){
-        window.open(url, "_blank").focus();
-      }
-    </script>
     <title>Spoty</title>
   </head>
-
-  
 
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
 
     <div>
       <header>
-        <div class = "header_container">
-          <div class = "logo"></div>
-            <h1><a>Premium</a></h1>
-            <h1><a>Справка</a></h1>
-            <h1><a>Скачать</a></h1>
-            <h1><a>Профиль</a></h1>
+        <div class="header_container">
+          <div class="logo"></div>
+          <h1><a>Premium</a></h1>
+          <h1><a>Справка</a></h1>
+          <h1><a>Скачать</a></h1>
+          <h1><a>Профиль</a></h1>
         </div>
       </header>
     </div>
-    
-    <div class="main" id="root" >
-      <div class = "main_note">
-        <h1>Возвращайтесь к музыке</h1>
+
+    <div class="main" id="root">
+      <div class="main_note">
+        <h1 class="main_note_text">Возвращайтесь к музыке</h1>
       </div>
-      <div class = "sub_note">
+      <div class="sub_note">
         <h2>Продолжайте слушать с того места, где остановились.</h2>
       </div>
-      <div class = "tiny_note">
-        <button class="open_button" id="player_button" onclick="OpenPlayer('player.html')">ОТКРЫТЬ ВЕБ-ПЛЕЕР</button>
+      <div class="tiny_note">
+        <a href="player.html">
+          <button class="open_button" id="player_button">
+            ОТКРЫТЬ ВЕБ-ПЛЕЕР
+          </button>
+        </a>
       </div>
     </div>
 
     <div>
       <footer>
-        <div class = "footer_container">
-          <div class = "logo"></div>
-          <div class = "footer_column">
+        <div class="footer_container">
+          <div class="logo"></div>
+          <div class="footer_column">
             <h2>Компания</h2>
             <a>О нас</a>
             <a>Вакансии</a>
             <a>For the record</a>
           </div>
-          <div class = "footer_column">
-          <h2>Сообщества</h2>
-          <a>Для исполнителей</a>
-          <a>Для разработчиков</a>
-          <a>Реклама</a>
-          <a>Для инвесторов</a>
-          <a>Для вендоров</a>
+          <div class="footer_column">
+            <h2>Сообщества</h2>
+            <a>Для исполнителей</a>
+            <a>Для разработчиков</a>
+            <a>Реклама</a>
+            <a>Для инвесторов</a>
+            <a>Для вендоров</a>
           </div>
-          <div class = "footer_column">
-          <h2>Полезные ссылки</h2>
-          <a>Справка</a>
-          <a>Веб-плеер</a>
-          <a>Бесплатное мобильное приложение</a>
+          <div class="footer_column">
+            <h2>Полезные ссылки</h2>
+            <a>Справка</a>
+            <a>Веб-плеер</a>
+            <a>Бесплатное мобильное приложение</a>
           </div>
         </div>
       </footer>
     </div>
   </body>
-
-  
 </html>
